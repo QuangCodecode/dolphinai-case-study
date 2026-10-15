@@ -2,7 +2,7 @@
 
 **MB Securities (MBS), Hanoi · Sep 2024 – Jul 2026 · Lead AI architect, agent core**
 
-DolphinAI is the AI investment assistant inside the MBS mobile app and web platform. It launched on 14 February 2025 and had answered **2.5 million investor questions as of February 2026**, with **50,000 users a month**. I led the AI architecture, built the multi-agent core, and owned the AI side of a 15-person product team.
+DolphinAI is the AI investment assistant inside the MBS mobile app and web platform. It launched on 14 February 2025 and had answered **2.5 million questions as of February 2026**, with **50,000 users per month**. I led the AI architecture, built the multi-agent core, and owned the AI side of a 15-person product team.
 
 > The source code belongs to MB Securities and is not public. This repository documents the architecture, the decisions behind it and the results, at the level I can share. Internal service names, endpoints, schemas and credentials are left out.
 
@@ -16,7 +16,7 @@ DolphinAI is the AI investment assistant inside the MBS mobile app and web platf
 
 | Metric | Result |
 |---|---|
-| Questions answered | **2.5M** as of Feb 2026, 50,000 users a month |
+| Questions answered | **2.5M** as of Feb 2026, 50,000 users per month |
 | Transactions referencing DolphinAI | **4,300 bn VND (~AUD 230M)**, as at Dec 2025 |
 | Concurrency | **8 → 3,000+** concurrent users (375×) on high-computation services |
 | Latency | **99.999%** of production queries returned in under 15 s (JMeter-verified) |
